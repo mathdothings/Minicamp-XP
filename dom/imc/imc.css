@@ -1,0 +1,21 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  align-content: center;
+  place-items: center;
+  height: 100vh;
+}
+
+body > div {
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  padding: 2rem 3rem;
+}
