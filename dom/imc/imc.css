@@ -9,7 +9,6 @@ html {
 
 body {
   display: grid;
-  align-content: center;
   place-items: center;
   height: 100vh;
 }
