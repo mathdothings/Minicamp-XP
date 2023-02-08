@@ -1,7 +1,6 @@
 function generateRandomNumber() {
   const rnd = () => Math.floor(Math.random() * 10);
   const result = [rnd(), rnd(), rnd()];
-  console.log(result);
   return result;
 }
 
