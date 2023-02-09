@@ -8,5 +8,84 @@
     <link rel="stylesheet" href="./style.css" />
     <script defer src="./script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="row">
+      <h1>Super Calculator</h1>
+      <label for="first-number">First number (A):</label>
+      <input type="number" id="first-number" />
+      <label for="second-number">Second number (B):</label>
+      <input type="number" id="second-number" />
+      <button type="button">Calculate</button>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p class="operation">Sum:</p>
+        <p id="sum-value"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Subtraction (A - B):</p>
+        <p id="subtraction-value1"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Subtraction (B - A):</p>
+        <p id="subtraction-value2"></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p class="operation">Multiplication (A * B):</p>
+        <p id="multiplication-value"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Division (A / B):</p>
+        <p id="division-value1"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Division (B / A):</p>
+        <p id="division-value2"></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p class="operation">Power (A ** B):</p>
+        <p id="power-value1"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Power (B ** A):</p>
+        <p id="power-value2"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Square Root (sqrt(A)):</p>
+        <p id="square-root-value1"></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p class="operation">Square Root (sqrt(B)):</p>
+        <p id="square-root-value2"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Fatorial(A):</p>
+        <p id="factorial-value1"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Fatorial(B):</p>
+        <p id="factorial-value2"></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p class="operation">Percentage (A % B):</p>
+        <p id="percentage-value1"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Percentage (B % A):</p>
+        <p id="percentage-value2"></p>
+      </div>
+      <div class="column">
+        <p class="operation">Median:</p>
+        <p id="median-value"></p>
+      </div>
+    </div>
+  </body>
 </html>
