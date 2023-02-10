@@ -32,15 +32,11 @@ function calculate() {
 
   // A / B
   const div1 = document.querySelector("#division-value1");
-  if (B !== 0) {
-    div1.innerText = (A / B).toFixed(2);
-  }
+  B === 0 ? (div1.innerText = "") : (div1.innerText = (A / B).toFixed(2));
 
   // B / A
   const div2 = document.querySelector("#division-value2");
-  if (A !== 0) {
-    div2.innerText = (B / A).toFixed(2);
-  }
+  A === 0 ? (div2.innerText = "") : (div2.innerText = (B / A).toFixed(2));
 
   // A ** B
   const power1 = document.querySelector("#power-value1");
